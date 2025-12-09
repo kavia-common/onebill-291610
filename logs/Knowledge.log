@@ -526,3 +526,1048 @@
 2025-12-09 09:26:25,313 - Knowledge - INFO - [WEBSOCKET] Sent: Type=progress_update, Size: 270, Duration: 0ms
 2025-12-09 09:26:25,479 - Knowledge - INFO - Saving knowledge to Redis...
 2025-12-09 09:26:25,708 - Knowledge - INFO - Knowledge saved to Redis successfully
+2025-12-09 09:30:57,518 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-12-09 09:30:57,857 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2025-12-09 09:30:58,020 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-12-09 09:30:58,196 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=25, max_concurrent_llm_calls=50
+2025-12-09 09:32:25,330 - Knowledge - INFO - Created shared MongoDB connection pool
+2025-12-09 09:32:25,634 - Knowledge - INFO - Starting Knowledge Graph processing with 20 threads
+2025-12-09 09:32:25,801 - Knowledge - INFO - Initial configuration: chunk_size=65536, max_cache_size=500
+2025-12-09 09:32:26,005 - Knowledge - INFO - Knowledge Graph concurrency configuration: workers=20, max_batch_size=25, max_concurrent_llm_calls=50
+2025-12-09 09:32:26,894 - Knowledge - INFO - 🔍 _load_persisted_knowledge called - checking for Redis optimization
+2025-12-09 09:32:27,122 - Knowledge - WARNING - ❌ load_from_redis method not found - Redis support not attached
+2025-12-09 09:32:27,280 - Knowledge - INFO - load persisted knowledge: begin
+2025-12-09 09:32:28,589 - Knowledge - INFO - Persisted knowledge files in /app/data/T0015/291610/b0824r8/onebill-291610/.knowledge have been renamed to use .json
+2025-12-09 09:32:28,818 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:29,042 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:29,489 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:29,693 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:29,899 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/ItemService.js
+2025-12-09 09:32:30,181 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2025-12-09 09:32:31,280 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/Service/ItemService.js, Duration: 921ms
+2025-12-09 09:32:31,513 - Knowledge - INFO - persist search terms embedding for client/src/Service/ItemService.js
+2025-12-09 09:32:31,719 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/ItemService.js
+2025-12-09 09:32:31,897 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:32,049 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:32,274 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:32,449 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:32,666 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/OrderService.java
+2025-12-09 09:32:32,935 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2025-12-09 09:32:33,357 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/OrderService.java, Duration: 250ms
+2025-12-09 09:32:33,547 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/OrderService.java
+2025-12-09 09:32:33,735 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/OrderService.java
+2025-12-09 09:32:33,926 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:34,089 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:34,354 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:34,533 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:34,761 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageUsers/ManageUsers.css
+2025-12-09 09:32:35,025 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2025-12-09 09:32:35,474 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/ManageUsers/ManageUsers.css, Duration: 284ms
+2025-12-09 09:32:35,649 - Knowledge - INFO - persist search terms embedding for client/src/pages/ManageUsers/ManageUsers.css
+2025-12-09 09:32:35,836 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageUsers/ManageUsers.css
+2025-12-09 09:32:36,047 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:36,245 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:36,512 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:36,699 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:36,927 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CategoryList/CategoryList.jsx
+2025-12-09 09:32:37,216 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 98ms
+2025-12-09 09:32:37,851 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/CategoryList/CategoryList.jsx, Duration: 440ms
+2025-12-09 09:32:38,048 - Knowledge - INFO - persist search terms embedding for client/src/components/CategoryList/CategoryList.jsx
+2025-12-09 09:32:38,247 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CategoryList/CategoryList.jsx
+2025-12-09 09:32:38,416 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:38,601 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:38,934 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:39,121 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:39,334 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageItems/ManageItems.css
+2025-12-09 09:32:39,609 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 114ms
+2025-12-09 09:32:40,079 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/ManageItems/ManageItems.css, Duration: 242ms
+2025-12-09 09:32:40,288 - Knowledge - INFO - persist search terms embedding for client/src/pages/ManageItems/ManageItems.css
+2025-12-09 09:32:40,463 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageItems/ManageItems.css
+2025-12-09 09:32:40,652 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:40,845 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:41,143 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:41,364 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:41,528 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ReceiptPopup/ReceiptPopup.css
+2025-12-09 09:32:41,833 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 104ms
+2025-12-09 09:32:42,424 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/ReceiptPopup/ReceiptPopup.css, Duration: 369ms
+2025-12-09 09:32:42,607 - Knowledge - INFO - persist search terms embedding for client/src/components/ReceiptPopup/ReceiptPopup.css
+2025-12-09 09:32:42,811 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ReceiptPopup/ReceiptPopup.css
+2025-12-09 09:32:43,014 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:43,184 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:43,465 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:43,650 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:43,820 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Menubar/Menubar.jsx
+2025-12-09 09:32:44,083 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 103ms
+2025-12-09 09:32:44,638 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/Menubar/Menubar.jsx, Duration: 387ms
+2025-12-09 09:32:44,831 - Knowledge - INFO - persist search terms embedding for client/src/components/Menubar/Menubar.jsx
+2025-12-09 09:32:45,047 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Menubar/Menubar.jsx
+2025-12-09 09:32:45,259 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:45,475 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:45,727 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:45,904 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:46,067 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/repository/CategoryRepository.java
+2025-12-09 09:32:46,362 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 116ms
+2025-12-09 09:32:46,780 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/repository/CategoryRepository.java, Duration: 235ms
+2025-12-09 09:32:46,985 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/repository/CategoryRepository.java
+2025-12-09 09:32:47,173 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/repository/CategoryRepository.java
+2025-12-09 09:32:47,360 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:47,560 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:47,818 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:47,985 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:48,179 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CategoryForm/CategoryForm.jsx
+2025-12-09 09:32:48,442 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-09 09:32:48,851 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/CategoryForm/CategoryForm.jsx, Duration: 229ms
+2025-12-09 09:32:49,015 - Knowledge - INFO - persist search terms embedding for client/src/components/CategoryForm/CategoryForm.jsx
+2025-12-09 09:32:49,159 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CategoryForm/CategoryForm.jsx
+2025-12-09 09:32:49,320 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:49,509 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:49,728 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:49,952 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:50,178 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/UserService.js
+2025-12-09 09:32:50,477 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2025-12-09 09:32:50,896 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/Service/UserService.js, Duration: 213ms
+2025-12-09 09:32:51,038 - Knowledge - INFO - persist search terms embedding for client/src/Service/UserService.js
+2025-12-09 09:32:51,213 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/UserService.js
+2025-12-09 09:32:51,390 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:51,580 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:51,885 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:52,049 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:52,210 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/NotFound/NotFound.jsx
+2025-12-09 09:32:52,462 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2025-12-09 09:32:52,912 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/NotFound/NotFound.jsx, Duration: 253ms
+2025-12-09 09:32:53,098 - Knowledge - INFO - persist search terms embedding for client/src/pages/NotFound/NotFound.jsx
+2025-12-09 09:32:53,276 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/NotFound/NotFound.jsx
+2025-12-09 09:32:53,458 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:53,667 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:53,947 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:54,162 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:54,316 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Explore/Explore.css
+2025-12-09 09:32:54,574 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 107ms
+2025-12-09 09:32:55,099 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/Explore/Explore.css, Duration: 317ms
+2025-12-09 09:32:55,309 - Knowledge - INFO - persist search terms embedding for client/src/pages/Explore/Explore.css
+2025-12-09 09:32:55,486 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Explore/Explore.css
+2025-12-09 09:32:55,678 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:55,886 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:56,150 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:56,366 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:56,587 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/ItemResponse.java
+2025-12-09 09:32:56,826 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 98ms
+2025-12-09 09:32:57,296 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/ItemResponse.java, Duration: 237ms
+2025-12-09 09:32:57,487 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/ItemResponse.java
+2025-12-09 09:32:57,673 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/ItemResponse.java
+2025-12-09 09:32:57,874 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:58,026 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:58,266 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:32:58,438 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:32:58,638 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Login/Login.jsx
+2025-12-09 09:32:58,915 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 105ms
+2025-12-09 09:32:59,327 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/Login/Login.jsx, Duration: 241ms
+2025-12-09 09:32:59,502 - Knowledge - INFO - persist search terms embedding for client/src/pages/Login/Login.jsx
+2025-12-09 09:32:59,687 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Login/Login.jsx
+2025-12-09 09:32:59,875 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:00,083 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:00,345 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:00,533 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:00,747 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Category/Category.jsx
+2025-12-09 09:33:01,025 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 105ms
+2025-12-09 09:33:01,477 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/Category/Category.jsx, Duration: 231ms
+2025-12-09 09:33:01,661 - Knowledge - INFO - persist search terms embedding for client/src/components/Category/Category.jsx
+2025-12-09 09:33:01,809 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Category/Category.jsx
+2025-12-09 09:33:02,030 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:02,208 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:02,424 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:02,570 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:02,763 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/UsersList/UsersList.jsx
+2025-12-09 09:33:03,036 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2025-12-09 09:33:03,479 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/UsersList/UsersList.jsx, Duration: 253ms
+2025-12-09 09:33:03,659 - Knowledge - INFO - persist search terms embedding for client/src/components/UsersList/UsersList.jsx
+2025-12-09 09:33:03,895 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/UsersList/UsersList.jsx
+2025-12-09 09:33:04,130 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:04,284 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:04,525 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:04,722 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:04,896 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/entity/OrderEntity.java
+2025-12-09 09:33:05,206 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-09 09:33:05,638 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/entity/OrderEntity.java, Duration: 219ms
+2025-12-09 09:33:05,819 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/entity/OrderEntity.java
+2025-12-09 09:33:05,999 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/entity/OrderEntity.java
+2025-12-09 09:33:06,191 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:06,404 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:06,660 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:06,836 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:07,031 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/PaymentController.java
+2025-12-09 09:33:07,332 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2025-12-09 09:33:07,867 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/controller/PaymentController.java, Duration: 338ms
+2025-12-09 09:33:08,091 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/controller/PaymentController.java
+2025-12-09 09:33:08,328 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/PaymentController.java
+2025-12-09 09:33:08,493 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:08,650 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:08,936 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:09,146 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:09,357 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageCategory/ManageCategory.css
+2025-12-09 09:33:09,657 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 106ms
+2025-12-09 09:33:10,059 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/ManageCategory/ManageCategory.css, Duration: 229ms
+2025-12-09 09:33:10,259 - Knowledge - INFO - persist search terms embedding for client/src/pages/ManageCategory/ManageCategory.css
+2025-12-09 09:33:10,429 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageCategory/ManageCategory.css
+2025-12-09 09:33:10,599 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:10,768 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:11,028 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:11,202 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:11,380 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/HELP.md
+2025-12-09 09:33:11,653 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2025-12-09 09:33:12,193 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: HELP.md, Duration: 302ms
+2025-12-09 09:33:12,356 - Knowledge - INFO - persist search terms embedding for HELP.md
+2025-12-09 09:33:12,517 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/HELP.md
+2025-12-09 09:33:12,718 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:12,925 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:13,213 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:13,403 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:13,566 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/UserResponse.java
+2025-12-09 09:33:13,842 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2025-12-09 09:33:14,307 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/UserResponse.java, Duration: 251ms
+2025-12-09 09:33:14,493 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/UserResponse.java
+2025-12-09 09:33:14,697 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/UserResponse.java
+2025-12-09 09:33:14,888 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:15,072 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:15,292 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:15,456 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:15,639 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/Dashboard.js
+2025-12-09 09:33:15,894 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 101ms
+2025-12-09 09:33:16,355 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/Service/Dashboard.js, Duration: 309ms
+2025-12-09 09:33:16,552 - Knowledge - INFO - persist search terms embedding for client/src/Service/Dashboard.js
+2025-12-09 09:33:16,721 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/Dashboard.js
+2025-12-09 09:33:16,906 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:17,108 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:17,417 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:17,631 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:17,806 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CustomerForm/CustomerForm.jsx
+2025-12-09 09:33:18,099 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 100ms
+2025-12-09 09:33:19,116 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/CustomerForm/CustomerForm.jsx, Duration: 832ms
+2025-12-09 09:33:19,334 - Knowledge - INFO - persist search terms embedding for client/src/components/CustomerForm/CustomerForm.jsx
+2025-12-09 09:33:19,520 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CustomerForm/CustomerForm.jsx
+2025-12-09 09:33:19,761 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:19,957 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:20,232 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:20,395 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:20,620 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/CategoryController.java
+2025-12-09 09:33:20,876 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2025-12-09 09:33:21,364 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/controller/CategoryController.java, Duration: 290ms
+2025-12-09 09:33:21,552 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/controller/CategoryController.java
+2025-12-09 09:33:21,812 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/CategoryController.java
+2025-12-09 09:33:22,050 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:22,237 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:22,547 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:22,735 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:22,901 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/index.css
+2025-12-09 09:33:23,180 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2025-12-09 09:33:23,654 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/index.css, Duration: 246ms
+2025-12-09 09:33:23,843 - Knowledge - INFO - persist search terms embedding for client/src/index.css
+2025-12-09 09:33:24,057 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/index.css
+2025-12-09 09:33:24,303 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:24,464 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:24,772 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:24,969 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:25,185 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/NotFound/NotFound.css
+2025-12-09 09:33:25,483 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 97ms
+2025-12-09 09:33:25,911 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/NotFound/NotFound.css, Duration: 249ms
+2025-12-09 09:33:26,125 - Knowledge - INFO - persist search terms embedding for client/src/pages/NotFound/NotFound.css
+2025-12-09 09:33:26,320 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/NotFound/NotFound.css
+2025-12-09 09:33:26,526 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:26,699 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:26,959 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:27,115 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:27,295 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/PaymentVerificationRequest.java
+2025-12-09 09:33:27,573 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2025-12-09 09:33:27,990 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/PaymentVerificationRequest.java, Duration: 246ms
+2025-12-09 09:33:28,186 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/PaymentVerificationRequest.java
+2025-12-09 09:33:28,368 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/PaymentVerificationRequest.java
+2025-12-09 09:33:28,538 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:28,712 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:28,971 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:29,160 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:29,382 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/DisplayCategory/DisplayCategory.jsx
+2025-12-09 09:33:29,682 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-09 09:33:30,028 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/DisplayCategory/DisplayCategory.jsx, Duration: 199ms
+2025-12-09 09:33:30,191 - Knowledge - INFO - persist search terms embedding for client/src/components/DisplayCategory/DisplayCategory.jsx
+2025-12-09 09:33:30,364 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/DisplayCategory/DisplayCategory.jsx
+2025-12-09 09:33:30,541 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:30,730 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:30,989 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:31,194 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:31,395 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageCategory/ManageCategory.jsx
+2025-12-09 09:33:31,658 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2025-12-09 09:33:32,119 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/ManageCategory/ManageCategory.jsx, Duration: 227ms
+2025-12-09 09:33:32,306 - Knowledge - INFO - persist search terms embedding for client/src/pages/ManageCategory/ManageCategory.jsx
+2025-12-09 09:33:32,478 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageCategory/ManageCategory.jsx
+2025-12-09 09:33:32,676 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:32,870 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:33,168 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:33,336 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:33,539 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Menubar/Menubar.css
+2025-12-09 09:33:33,828 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2025-12-09 09:33:34,298 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/Menubar/Menubar.css, Duration: 273ms
+2025-12-09 09:33:34,463 - Knowledge - INFO - persist search terms embedding for client/src/components/Menubar/Menubar.css
+2025-12-09 09:33:34,624 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Menubar/Menubar.css
+2025-12-09 09:33:34,808 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:34,990 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:35,266 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:35,447 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:35,672 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CartItems/CartItems.jsx
+2025-12-09 09:33:35,959 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2025-12-09 09:33:36,503 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/CartItems/CartItems.jsx, Duration: 343ms
+2025-12-09 09:33:36,689 - Knowledge - INFO - persist search terms embedding for client/src/components/CartItems/CartItems.jsx
+2025-12-09 09:33:36,906 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CartItems/CartItems.jsx
+2025-12-09 09:33:37,067 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:37,255 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:37,531 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:37,740 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:37,901 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CategoryList/CategoryList.css
+2025-12-09 09:33:38,199 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 112ms
+2025-12-09 09:33:38,644 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/CategoryList/CategoryList.css, Duration: 270ms
+2025-12-09 09:33:38,832 - Knowledge - INFO - persist search terms embedding for client/src/components/CategoryList/CategoryList.css
+2025-12-09 09:33:38,997 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CategoryList/CategoryList.css
+2025-12-09 09:33:39,185 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:39,369 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:39,598 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:39,806 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:40,009 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Explore/Explore.jsx
+2025-12-09 09:33:40,275 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 96ms
+2025-12-09 09:33:40,698 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/Explore/Explore.jsx, Duration: 232ms
+2025-12-09 09:33:40,884 - Knowledge - INFO - persist search terms embedding for client/src/pages/Explore/Explore.jsx
+2025-12-09 09:33:41,062 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Explore/Explore.jsx
+2025-12-09 09:33:41,247 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:41,434 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:41,726 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:41,918 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:42,120 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/RazorpayService.java
+2025-12-09 09:33:42,390 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2025-12-09 09:33:42,783 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/RazorpayService.java, Duration: 238ms
+2025-12-09 09:33:42,980 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/RazorpayService.java
+2025-12-09 09:33:43,176 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/RazorpayService.java
+2025-12-09 09:33:43,403 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:43,577 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:43,880 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:44,086 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:44,302 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ReceiptPopup/ReceiptPopup.jsx
+2025-12-09 09:33:44,565 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-09 09:33:44,966 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/ReceiptPopup/ReceiptPopup.jsx, Duration: 229ms
+2025-12-09 09:33:45,147 - Knowledge - INFO - persist search terms embedding for client/src/components/ReceiptPopup/ReceiptPopup.jsx
+2025-12-09 09:33:45,330 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ReceiptPopup/ReceiptPopup.jsx
+2025-12-09 09:33:45,484 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:45,681 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:45,965 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:46,127 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:46,280 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageItems/ManageItems.jsx
+2025-12-09 09:33:46,533 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2025-12-09 09:33:47,333 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/ManageItems/ManageItems.jsx, Duration: 628ms
+2025-12-09 09:33:47,524 - Knowledge - INFO - persist search terms embedding for client/src/pages/ManageItems/ManageItems.jsx
+2025-12-09 09:33:47,750 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageItems/ManageItems.jsx
+2025-12-09 09:33:47,959 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:48,160 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:48,378 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:48,535 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:48,716 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/eslint.config.js
+2025-12-09 09:33:49,019 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2025-12-09 09:33:49,450 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/eslint.config.js, Duration: 246ms
+2025-12-09 09:33:49,591 - Knowledge - INFO - persist search terms embedding for client/eslint.config.js
+2025-12-09 09:33:49,795 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/eslint.config.js
+2025-12-09 09:33:49,982 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:50,164 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:50,458 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:50,660 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:50,857 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CartSummary/CartSummary.jsx
+2025-12-09 09:33:51,164 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 110ms
+2025-12-09 09:33:51,832 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/CartSummary/CartSummary.jsx, Duration: 432ms
+2025-12-09 09:33:52,003 - Knowledge - INFO - persist search terms embedding for client/src/components/CartSummary/CartSummary.jsx
+2025-12-09 09:33:52,222 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/CartSummary/CartSummary.jsx
+2025-12-09 09:33:52,384 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:52,533 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:52,813 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:52,988 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:53,196 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageUsers/ManageUsers.jsx
+2025-12-09 09:33:53,475 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 97ms
+2025-12-09 09:33:53,901 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/ManageUsers/ManageUsers.jsx, Duration: 234ms
+2025-12-09 09:33:54,106 - Knowledge - INFO - persist search terms embedding for client/src/pages/ManageUsers/ManageUsers.jsx
+2025-12-09 09:33:54,301 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/ManageUsers/ManageUsers.jsx
+2025-12-09 09:33:54,531 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:54,697 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:54,946 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:55,154 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:55,327 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/AuthController.java
+2025-12-09 09:33:55,605 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2025-12-09 09:33:56,006 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/controller/AuthController.java, Duration: 211ms
+2025-12-09 09:33:56,226 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/controller/AuthController.java
+2025-12-09 09:33:56,410 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/AuthController.java
+2025-12-09 09:33:56,590 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:56,782 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:57,062 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:57,268 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:57,472 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/DisplayItems/DisplayItems.jsx
+2025-12-09 09:33:57,769 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 98ms
+2025-12-09 09:33:58,158 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/DisplayItems/DisplayItems.jsx, Duration: 191ms
+2025-12-09 09:33:58,322 - Knowledge - INFO - persist search terms embedding for client/src/components/DisplayItems/DisplayItems.jsx
+2025-12-09 09:33:58,488 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/DisplayItems/DisplayItems.jsx
+2025-12-09 09:33:58,644 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:58,813 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:59,063 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:33:59,224 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:33:59,419 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/FileUploadServiceImpl.java
+2025-12-09 09:33:59,746 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2025-12-09 09:34:00,228 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/impl/FileUploadServiceImpl.java, Duration: 318ms
+2025-12-09 09:34:00,402 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/impl/FileUploadServiceImpl.java
+2025-12-09 09:34:00,611 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/FileUploadServiceImpl.java
+2025-12-09 09:34:00,803 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:00,984 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:01,240 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:01,393 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:01,575 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Category/Category.css
+2025-12-09 09:34:01,900 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 149ms
+2025-12-09 09:34:02,426 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/Category/Category.css, Duration: 301ms
+2025-12-09 09:34:02,607 - Knowledge - INFO - persist search terms embedding for client/src/components/Category/Category.css
+2025-12-09 09:34:02,788 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Category/Category.css
+2025-12-09 09:34:02,944 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:03,180 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:03,439 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:03,629 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:03,791 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Login/Login.css
+2025-12-09 09:34:04,113 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 109ms
+2025-12-09 09:34:04,588 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/Login/Login.css, Duration: 260ms
+2025-12-09 09:34:04,812 - Knowledge - INFO - persist search terms embedding for client/src/pages/Login/Login.css
+2025-12-09 09:34:05,029 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Login/Login.css
+2025-12-09 09:34:05,245 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:05,473 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:05,761 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:05,918 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:06,141 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ItemForm/ItemForm.jsx
+2025-12-09 09:34:06,385 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2025-12-09 09:34:06,877 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/ItemForm/ItemForm.jsx, Duration: 298ms
+2025-12-09 09:34:07,053 - Knowledge - INFO - persist search terms embedding for client/src/components/ItemForm/ItemForm.jsx
+2025-12-09 09:34:07,226 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ItemForm/ItemForm.jsx
+2025-12-09 09:34:07,400 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:07,575 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:07,834 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:07,991 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:08,218 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/UserRequest.java
+2025-12-09 09:34:08,491 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2025-12-09 09:34:08,925 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/UserRequest.java, Duration: 258ms
+2025-12-09 09:34:09,135 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/UserRequest.java
+2025-12-09 09:34:09,323 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/UserRequest.java
+2025-12-09 09:34:09,515 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:09,681 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:09,966 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:10,167 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:10,349 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/OrderHistory/OrderHistory.jsx
+2025-12-09 09:34:10,620 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-09 09:34:11,021 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/OrderHistory/OrderHistory.jsx, Duration: 244ms
+2025-12-09 09:34:11,199 - Knowledge - INFO - persist search terms embedding for client/src/pages/OrderHistory/OrderHistory.jsx
+2025-12-09 09:34:11,374 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/OrderHistory/OrderHistory.jsx
+2025-12-09 09:34:11,530 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:11,741 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:12,038 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:12,251 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:12,445 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/context/AppContext.jsx
+2025-12-09 09:34:12,718 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2025-12-09 09:34:13,180 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/context/AppContext.jsx, Duration: 267ms
+2025-12-09 09:34:13,367 - Knowledge - INFO - persist search terms embedding for client/src/context/AppContext.jsx
+2025-12-09 09:34:13,556 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/context/AppContext.jsx
+2025-12-09 09:34:13,754 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:13,939 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:14,169 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:14,334 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:14,548 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/CategoryService.java
+2025-12-09 09:34:14,842 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2025-12-09 09:34:15,238 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/CategoryService.java, Duration: 201ms
+2025-12-09 09:34:15,460 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/CategoryService.java
+2025-12-09 09:34:15,653 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/CategoryService.java
+2025-12-09 09:34:15,849 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:16,004 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:16,242 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:16,405 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:16,604 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/DashboardController.java
+2025-12-09 09:34:16,843 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-09 09:34:17,236 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/controller/DashboardController.java, Duration: 217ms
+2025-12-09 09:34:17,452 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/controller/DashboardController.java
+2025-12-09 09:34:17,696 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/DashboardController.java
+2025-12-09 09:34:17,884 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:18,073 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:18,358 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:18,548 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:18,768 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/UserForm/UserForm.jsx
+2025-12-09 09:34:19,038 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-09 09:34:19,449 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/UserForm/UserForm.jsx, Duration: 227ms
+2025-12-09 09:34:19,645 - Knowledge - INFO - persist search terms embedding for client/src/components/UserForm/UserForm.jsx
+2025-12-09 09:34:19,808 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/UserForm/UserForm.jsx
+2025-12-09 09:34:19,976 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:20,168 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:20,404 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:20,603 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:20,803 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/ItemRequest.java
+2025-12-09 09:34:21,101 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2025-12-09 09:34:21,520 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/ItemRequest.java, Duration: 227ms
+2025-12-09 09:34:21,721 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/ItemRequest.java
+2025-12-09 09:34:21,919 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/ItemRequest.java
+2025-12-09 09:34:22,164 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:22,423 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:22,705 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:22,877 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:23,029 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ItemList/ItemList.jsx
+2025-12-09 09:34:23,322 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 101ms
+2025-12-09 09:34:24,230 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/ItemList/ItemList.jsx, Duration: 739ms
+2025-12-09 09:34:24,408 - Knowledge - INFO - persist search terms embedding for client/src/components/ItemList/ItemList.jsx
+2025-12-09 09:34:24,611 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ItemList/ItemList.jsx
+2025-12-09 09:34:24,810 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:24,993 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:25,258 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:25,427 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:25,624 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/SearchBox/SearchBox.jsx
+2025-12-09 09:34:25,889 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2025-12-09 09:34:26,260 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/SearchBox/SearchBox.jsx, Duration: 207ms
+2025-12-09 09:34:26,469 - Knowledge - INFO - persist search terms embedding for client/src/components/SearchBox/SearchBox.jsx
+2025-12-09 09:34:26,689 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/SearchBox/SearchBox.jsx
+2025-12-09 09:34:26,883 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:27,089 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:27,358 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:27,551 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:27,721 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/entity/CategoryEntity.java
+2025-12-09 09:34:27,982 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2025-12-09 09:34:28,374 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/entity/CategoryEntity.java, Duration: 214ms
+2025-12-09 09:34:28,533 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/entity/CategoryEntity.java
+2025-12-09 09:34:28,674 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/entity/CategoryEntity.java
+2025-12-09 09:34:28,847 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:29,062 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:29,325 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:29,538 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:29,695 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/repository/OrderItemEntityRepository.java
+2025-12-09 09:34:29,941 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-09 09:34:30,394 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/repository/OrderItemEntityRepository.java, Duration: 243ms
+2025-12-09 09:34:30,615 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/repository/OrderItemEntityRepository.java
+2025-12-09 09:34:30,796 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/repository/OrderItemEntityRepository.java
+2025-12-09 09:34:31,004 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:31,178 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:31,434 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:31,572 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:31,764 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Item/Item.jsx
+2025-12-09 09:34:32,048 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2025-12-09 09:34:32,474 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/Item/Item.jsx, Duration: 245ms
+2025-12-09 09:34:32,683 - Knowledge - INFO - persist search terms embedding for client/src/components/Item/Item.jsx
+2025-12-09 09:34:32,914 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Item/Item.jsx
+2025-12-09 09:34:33,139 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:33,318 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:33,583 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:33,762 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:33,928 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/util/constants.js
+2025-12-09 09:34:34,200 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 99ms
+2025-12-09 09:34:34,745 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/util/constants.js, Duration: 366ms
+2025-12-09 09:34:34,903 - Knowledge - INFO - persist search terms embedding for client/src/util/constants.js
+2025-12-09 09:34:35,112 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/util/constants.js
+2025-12-09 09:34:35,325 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:35,520 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:35,801 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:35,978 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:36,207 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/package.json
+2025-12-09 09:34:36,522 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 103ms
+2025-12-09 09:34:36,949 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/package.json, Duration: 231ms
+2025-12-09 09:34:37,133 - Knowledge - INFO - persist search terms embedding for client/package.json
+2025-12-09 09:34:37,335 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/package.json
+2025-12-09 09:34:37,549 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:37,733 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:38,002 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:38,182 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:38,334 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Dashboard/Dashboard.css
+2025-12-09 09:34:38,618 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 99ms
+2025-12-09 09:34:39,243 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/Dashboard/Dashboard.css, Duration: 439ms
+2025-12-09 09:34:39,426 - Knowledge - INFO - persist search terms embedding for client/src/pages/Dashboard/Dashboard.css
+2025-12-09 09:34:39,613 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Dashboard/Dashboard.css
+2025-12-09 09:34:39,816 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:39,994 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:40,270 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:40,450 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:40,648 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ItemList/ItemList.css
+2025-12-09 09:34:40,929 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2025-12-09 09:34:41,368 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/ItemList/ItemList.css, Duration: 251ms
+2025-12-09 09:34:41,568 - Knowledge - INFO - persist search terms embedding for client/src/components/ItemList/ItemList.css
+2025-12-09 09:34:41,804 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ItemList/ItemList.css
+2025-12-09 09:34:42,038 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:42,203 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:42,448 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:42,692 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:42,849 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Dashboard/Dashboard.jsx
+2025-12-09 09:34:43,126 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2025-12-09 09:34:44,845 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/Dashboard/Dashboard.jsx, Duration: 1527ms
+2025-12-09 09:34:45,002 - Knowledge - INFO - persist search terms embedding for client/src/pages/Dashboard/Dashboard.jsx
+2025-12-09 09:34:45,187 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/Dashboard/Dashboard.jsx
+2025-12-09 09:34:45,381 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:45,569 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:45,819 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:46,020 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:46,197 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/OrderController.java
+2025-12-09 09:34:46,472 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2025-12-09 09:34:46,944 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/controller/OrderController.java, Duration: 285ms
+2025-12-09 09:34:47,142 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/controller/OrderController.java
+2025-12-09 09:34:47,339 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/OrderController.java
+2025-12-09 09:34:47,510 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:47,689 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:47,943 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:48,107 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:48,295 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/ItemServiceImpl.java
+2025-12-09 09:34:48,545 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2025-12-09 09:34:48,982 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/impl/ItemServiceImpl.java, Duration: 263ms
+2025-12-09 09:34:49,159 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/impl/ItemServiceImpl.java
+2025-12-09 09:34:49,327 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/ItemServiceImpl.java
+2025-12-09 09:34:49,532 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:49,728 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:49,954 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:50,174 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:50,346 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/UserServiceImpl.java
+2025-12-09 09:34:50,642 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2025-12-09 09:34:51,263 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/impl/UserServiceImpl.java, Duration: 442ms
+2025-12-09 09:34:51,444 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/impl/UserServiceImpl.java
+2025-12-09 09:34:51,614 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/UserServiceImpl.java
+2025-12-09 09:34:51,829 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:52,066 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:52,328 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:52,499 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:52,663 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/config/SecurityConfig.java
+2025-12-09 09:34:52,939 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2025-12-09 09:34:53,394 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/config/SecurityConfig.java, Duration: 253ms
+2025-12-09 09:34:53,697 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/config/SecurityConfig.java
+2025-12-09 09:34:53,904 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/config/SecurityConfig.java
+2025-12-09 09:34:54,125 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:54,327 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:54,607 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:54,788 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:55,005 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/OrderHistory/OrderHistory.css
+2025-12-09 09:34:55,257 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2025-12-09 09:34:55,638 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/pages/OrderHistory/OrderHistory.css, Duration: 202ms
+2025-12-09 09:34:55,814 - Knowledge - INFO - persist search terms embedding for client/src/pages/OrderHistory/OrderHistory.css
+2025-12-09 09:34:56,006 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/pages/OrderHistory/OrderHistory.css
+2025-12-09 09:34:56,177 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:56,336 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:56,579 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:56,770 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:56,971 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Item/Item.css
+2025-12-09 09:34:57,229 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 104ms
+2025-12-09 09:34:57,629 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/Item/Item.css, Duration: 248ms
+2025-12-09 09:34:57,781 - Knowledge - INFO - persist search terms embedding for client/src/components/Item/Item.css
+2025-12-09 09:34:57,958 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/Item/Item.css
+2025-12-09 09:34:58,154 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:58,320 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:58,592 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:34:58,755 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:34:58,967 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/PaymentDetails.java
+2025-12-09 09:34:59,290 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 102ms
+2025-12-09 09:34:59,698 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/PaymentDetails.java, Duration: 211ms
+2025-12-09 09:34:59,867 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/PaymentDetails.java
+2025-12-09 09:35:00,042 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/PaymentDetails.java
+2025-12-09 09:35:00,235 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:00,457 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:00,692 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:00,898 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:01,074 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/test/java/in/ankit/billingsoftware/BillingsoftwareApplicationTests.java
+2025-12-09 09:35:01,348 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2025-12-09 09:35:01,768 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/test/java/in/ankit/billingsoftware/BillingsoftwareApplicationTests.java, Duration: 264ms
+2025-12-09 09:35:01,950 - Knowledge - INFO - persist search terms embedding for src/test/java/in/ankit/billingsoftware/BillingsoftwareApplicationTests.java
+2025-12-09 09:35:02,157 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/test/java/in/ankit/billingsoftware/BillingsoftwareApplicationTests.java
+2025-12-09 09:35:02,332 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:02,519 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:02,785 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:02,985 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:03,149 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/repository/UserRepository.java
+2025-12-09 09:35:03,421 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 103ms
+2025-12-09 09:35:03,838 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/repository/UserRepository.java, Duration: 220ms
+2025-12-09 09:35:04,014 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/repository/UserRepository.java
+2025-12-09 09:35:04,174 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/repository/UserRepository.java
+2025-12-09 09:35:04,369 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:04,604 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:04,944 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:05,173 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:05,347 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/CategoryRequest.java
+2025-12-09 09:35:05,599 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 98ms
+2025-12-09 09:35:06,038 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/CategoryRequest.java, Duration: 238ms
+2025-12-09 09:35:06,202 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/CategoryRequest.java
+2025-12-09 09:35:06,416 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/CategoryRequest.java
+2025-12-09 09:35:06,601 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:06,751 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:07,022 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:07,202 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:07,354 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/PaymentRequest.java
+2025-12-09 09:35:07,649 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 109ms
+2025-12-09 09:35:08,141 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/PaymentRequest.java, Duration: 277ms
+2025-12-09 09:35:08,334 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/PaymentRequest.java
+2025-12-09 09:35:08,539 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/PaymentRequest.java
+2025-12-09 09:35:08,738 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:08,911 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:09,170 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:09,360 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:09,580 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/repository/ItemRepository.java
+2025-12-09 09:35:09,908 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 175ms
+2025-12-09 09:35:10,299 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/repository/ItemRepository.java, Duration: 207ms
+2025-12-09 09:35:10,472 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/repository/ItemRepository.java
+2025-12-09 09:35:10,632 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/repository/ItemRepository.java
+2025-12-09 09:35:10,841 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:11,021 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:11,266 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:11,462 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:11,646 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/DashboardResponse.java
+2025-12-09 09:35:11,947 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 96ms
+2025-12-09 09:35:12,398 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/DashboardResponse.java, Duration: 246ms
+2025-12-09 09:35:12,624 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/DashboardResponse.java
+2025-12-09 09:35:12,803 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/DashboardResponse.java
+2025-12-09 09:35:12,964 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:13,156 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:13,426 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:13,619 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:13,768 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/PaymentMethod.java
+2025-12-09 09:35:14,013 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 96ms
+2025-12-09 09:35:14,432 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/PaymentMethod.java, Duration: 210ms
+2025-12-09 09:35:14,631 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/PaymentMethod.java
+2025-12-09 09:35:14,808 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/PaymentMethod.java
+2025-12-09 09:35:14,985 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:15,223 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:15,499 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:15,691 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:15,872 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/FileUploadService.java
+2025-12-09 09:35:16,171 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 108ms
+2025-12-09 09:35:16,630 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/FileUploadService.java, Duration: 236ms
+2025-12-09 09:35:16,814 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/FileUploadService.java
+2025-12-09 09:35:17,019 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/FileUploadService.java
+2025-12-09 09:35:17,217 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:17,428 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:17,682 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:17,873 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:18,081 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/UserController.java
+2025-12-09 09:35:18,364 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 105ms
+2025-12-09 09:35:18,912 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/controller/UserController.java, Duration: 364ms
+2025-12-09 09:35:19,090 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/controller/UserController.java
+2025-12-09 09:35:19,291 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/UserController.java
+2025-12-09 09:35:19,504 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:19,700 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:19,918 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:20,073 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:20,264 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/config/AWSConfig.java
+2025-12-09 09:35:20,569 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-09 09:35:21,002 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/config/AWSConfig.java, Duration: 280ms
+2025-12-09 09:35:21,169 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/config/AWSConfig.java
+2025-12-09 09:35:21,400 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/config/AWSConfig.java
+2025-12-09 09:35:21,582 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:21,780 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:22,010 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:22,205 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:22,381 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/App.jsx
+2025-12-09 09:35:22,675 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2025-12-09 09:35:23,066 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/App.jsx, Duration: 209ms
+2025-12-09 09:35:23,271 - Knowledge - INFO - persist search terms embedding for client/src/App.jsx
+2025-12-09 09:35:23,456 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/App.jsx
+2025-12-09 09:35:23,615 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:23,794 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:24,044 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:24,243 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:24,415 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/ItemController.java
+2025-12-09 09:35:24,708 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 87ms
+2025-12-09 09:35:25,160 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/controller/ItemController.java, Duration: 272ms
+2025-12-09 09:35:25,314 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/controller/ItemController.java
+2025-12-09 09:35:25,463 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/controller/ItemController.java
+2025-12-09 09:35:25,626 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:25,820 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:26,075 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:26,291 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:26,448 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/index.html
+2025-12-09 09:35:26,724 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 94ms
+2025-12-09 09:35:27,189 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/index.html, Duration: 275ms
+2025-12-09 09:35:27,390 - Knowledge - INFO - persist search terms embedding for client/index.html
+2025-12-09 09:35:27,620 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/index.html
+2025-12-09 09:35:27,799 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:27,984 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:28,264 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:28,484 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:28,695 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/AuthRequest.java
+2025-12-09 09:35:28,961 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2025-12-09 09:35:29,366 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/AuthRequest.java, Duration: 190ms
+2025-12-09 09:35:29,535 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/AuthRequest.java
+2025-12-09 09:35:29,721 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/AuthRequest.java
+2025-12-09 09:35:29,920 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:30,141 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:30,377 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:30,532 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:30,726 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/vite.config.js
+2025-12-09 09:35:30,958 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 82ms
+2025-12-09 09:35:31,426 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/vite.config.js, Duration: 227ms
+2025-12-09 09:35:31,611 - Knowledge - INFO - persist search terms embedding for client/vite.config.js
+2025-12-09 09:35:31,830 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/vite.config.js
+2025-12-09 09:35:32,011 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:32,209 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:32,501 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:32,688 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:32,859 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/assets/assets.js
+2025-12-09 09:35:33,115 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2025-12-09 09:35:33,493 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/assets/assets.js, Duration: 187ms
+2025-12-09 09:35:33,661 - Knowledge - INFO - persist search terms embedding for client/src/assets/assets.js
+2025-12-09 09:35:33,874 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/assets/assets.js
+2025-12-09 09:35:34,087 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:34,284 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:34,511 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:34,704 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:34,892 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/CategoryServiceImpl.java
+2025-12-09 09:35:35,188 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 99ms
+2025-12-09 09:35:35,578 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/impl/CategoryServiceImpl.java, Duration: 238ms
+2025-12-09 09:35:35,742 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/impl/CategoryServiceImpl.java
+2025-12-09 09:35:35,906 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/CategoryServiceImpl.java
+2025-12-09 09:35:36,115 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:36,330 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:36,598 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:36,774 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:36,930 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/OrderResponse.java
+2025-12-09 09:35:37,221 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 112ms
+2025-12-09 09:35:37,932 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/OrderResponse.java, Duration: 498ms
+2025-12-09 09:35:38,142 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/OrderResponse.java
+2025-12-09 09:35:38,326 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/OrderResponse.java
+2025-12-09 09:35:38,527 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:38,702 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:38,929 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:39,081 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:39,286 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/README.md
+2025-12-09 09:35:39,533 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2025-12-09 09:35:39,925 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: README.md, Duration: 212ms
+2025-12-09 09:35:40,121 - Knowledge - INFO - persist search terms embedding for README.md
+2025-12-09 09:35:40,297 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/README.md
+2025-12-09 09:35:40,503 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:40,689 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:40,959 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:41,139 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:41,381 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/OrderService.js
+2025-12-09 09:35:41,663 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-09 09:35:42,178 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/Service/OrderService.js, Duration: 348ms
+2025-12-09 09:35:42,368 - Knowledge - INFO - persist search terms embedding for client/src/Service/OrderService.js
+2025-12-09 09:35:42,574 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/OrderService.js
+2025-12-09 09:35:42,736 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:42,938 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:43,205 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:43,359 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:43,557 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ReceiptPopup/Print.css
+2025-12-09 09:35:43,850 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2025-12-09 09:35:44,309 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/components/ReceiptPopup/Print.css, Duration: 269ms
+2025-12-09 09:35:44,493 - Knowledge - INFO - persist search terms embedding for client/src/components/ReceiptPopup/Print.css
+2025-12-09 09:35:44,694 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/components/ReceiptPopup/Print.css
+2025-12-09 09:35:44,862 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:45,008 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:45,281 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:45,463 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:45,653 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/RazorpayOrderResponse.java
+2025-12-09 09:35:45,963 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 88ms
+2025-12-09 09:35:46,430 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/RazorpayOrderResponse.java, Duration: 267ms
+2025-12-09 09:35:46,639 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/RazorpayOrderResponse.java
+2025-12-09 09:35:46,830 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/RazorpayOrderResponse.java
+2025-12-09 09:35:47,026 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:47,171 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:47,425 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:47,578 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:47,760 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/main.jsx
+2025-12-09 09:35:48,013 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 81ms
+2025-12-09 09:35:48,535 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/main.jsx, Duration: 312ms
+2025-12-09 09:35:48,735 - Knowledge - INFO - persist search terms embedding for client/src/main.jsx
+2025-12-09 09:35:48,923 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/main.jsx
+2025-12-09 09:35:49,124 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:49,342 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:49,563 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:49,797 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:49,994 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/UserService.java
+2025-12-09 09:35:50,303 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 109ms
+2025-12-09 09:35:50,700 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/UserService.java, Duration: 202ms
+2025-12-09 09:35:50,913 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/UserService.java
+2025-12-09 09:35:51,174 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/UserService.java
+2025-12-09 09:35:51,402 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:51,585 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:51,852 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:52,042 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:52,257 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/util/JwtUtil.java
+2025-12-09 09:35:52,551 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 101ms
+2025-12-09 09:35:52,986 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/util/JwtUtil.java, Duration: 243ms
+2025-12-09 09:35:53,184 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/util/JwtUtil.java
+2025-12-09 09:35:53,407 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/util/JwtUtil.java
+2025-12-09 09:35:53,606 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:53,753 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:54,046 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:54,236 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:54,433 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/BillingsoftwareApplication.java
+2025-12-09 09:35:54,696 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2025-12-09 09:35:55,240 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/BillingsoftwareApplication.java, Duration: 352ms
+2025-12-09 09:35:55,443 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/BillingsoftwareApplication.java
+2025-12-09 09:35:55,645 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/BillingsoftwareApplication.java
+2025-12-09 09:35:55,803 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:55,985 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:56,216 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:56,412 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:56,606 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/OrderServiceImpl.java
+2025-12-09 09:35:56,904 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 89ms
+2025-12-09 09:35:57,354 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/impl/OrderServiceImpl.java, Duration: 254ms
+2025-12-09 09:35:57,527 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/impl/OrderServiceImpl.java
+2025-12-09 09:35:57,712 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/OrderServiceImpl.java
+2025-12-09 09:35:57,922 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:58,080 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:58,304 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:35:58,444 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:35:58,600 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/ItemService.java
+2025-12-09 09:35:58,842 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2025-12-09 09:35:59,557 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/ItemService.java, Duration: 528ms
+2025-12-09 09:35:59,753 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/ItemService.java
+2025-12-09 09:35:59,953 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/ItemService.java
+2025-12-09 09:36:00,150 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:00,296 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:00,561 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:00,730 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:00,920 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/AuthService.js
+2025-12-09 09:36:01,200 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 97ms
+2025-12-09 09:36:01,673 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/Service/AuthService.js, Duration: 255ms
+2025-12-09 09:36:01,860 - Knowledge - INFO - persist search terms embedding for client/src/Service/AuthService.js
+2025-12-09 09:36:02,024 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/AuthService.js
+2025-12-09 09:36:02,229 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:02,407 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:02,648 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:02,830 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:03,015 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/entity/UserEntity.java
+2025-12-09 09:36:03,323 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 106ms
+2025-12-09 09:36:03,800 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/entity/UserEntity.java, Duration: 268ms
+2025-12-09 09:36:04,009 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/entity/UserEntity.java
+2025-12-09 09:36:04,171 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/entity/UserEntity.java
+2025-12-09 09:36:04,418 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:04,625 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:04,924 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:05,164 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:05,323 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/AuthResponse.java
+2025-12-09 09:36:05,587 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 93ms
+2025-12-09 09:36:06,062 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/AuthResponse.java, Duration: 273ms
+2025-12-09 09:36:06,234 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/AuthResponse.java
+2025-12-09 09:36:06,443 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/AuthResponse.java
+2025-12-09 09:36:06,669 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:06,890 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:07,154 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:07,350 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:07,584 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/README.md
+2025-12-09 09:36:07,825 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 90ms
+2025-12-09 09:36:08,241 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/README.md, Duration: 250ms
+2025-12-09 09:36:08,443 - Knowledge - INFO - persist search terms embedding for client/README.md
+2025-12-09 09:36:08,666 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/README.md
+2025-12-09 09:36:08,846 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:09,072 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:09,317 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:09,478 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:09,647 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/AppUserDetailsService.java
+2025-12-09 09:36:09,918 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 86ms
+2025-12-09 09:36:10,349 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/impl/AppUserDetailsService.java, Duration: 225ms
+2025-12-09 09:36:10,521 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/impl/AppUserDetailsService.java
+2025-12-09 09:36:10,727 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/AppUserDetailsService.java
+2025-12-09 09:36:10,902 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:11,077 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:11,323 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:11,546 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:11,775 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/repository/OrderEntityRepository.java
+2025-12-09 09:36:12,028 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2025-12-09 09:36:12,480 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/repository/OrderEntityRepository.java, Duration: 248ms
+2025-12-09 09:36:12,647 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/repository/OrderEntityRepository.java
+2025-12-09 09:36:12,846 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/repository/OrderEntityRepository.java
+2025-12-09 09:36:13,031 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:13,228 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:13,492 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:13,651 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:13,809 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/pom.xml
+2025-12-09 09:36:14,104 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 97ms
+2025-12-09 09:36:14,711 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: pom.xml, Duration: 438ms
+2025-12-09 09:36:14,959 - Knowledge - INFO - persist search terms embedding for pom.xml
+2025-12-09 09:36:15,146 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/pom.xml
+2025-12-09 09:36:15,307 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:15,488 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:15,707 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:15,898 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:16,102 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/entity/ItemEntity.java
+2025-12-09 09:36:16,392 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 92ms
+2025-12-09 09:36:16,813 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/entity/ItemEntity.java, Duration: 211ms
+2025-12-09 09:36:17,019 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/entity/ItemEntity.java
+2025-12-09 09:36:17,209 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/entity/ItemEntity.java
+2025-12-09 09:36:17,387 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:17,599 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:17,808 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:18,018 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:18,228 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/CategoryResponse.java
+2025-12-09 09:36:18,488 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2025-12-09 09:36:18,914 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/CategoryResponse.java, Duration: 209ms
+2025-12-09 09:36:19,104 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/CategoryResponse.java
+2025-12-09 09:36:19,274 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/CategoryResponse.java
+2025-12-09 09:36:19,462 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:19,640 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:19,887 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:20,086 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:20,284 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/entity/OrderItemEntity.java
+2025-12-09 09:36:20,572 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 84ms
+2025-12-09 09:36:21,079 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/entity/OrderItemEntity.java, Duration: 293ms
+2025-12-09 09:36:21,270 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/entity/OrderItemEntity.java
+2025-12-09 09:36:21,442 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/entity/OrderItemEntity.java
+2025-12-09 09:36:21,587 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:21,772 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:22,018 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:22,175 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:22,353 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/filters/JwtRequestFilter.java
+2025-12-09 09:36:22,636 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 81ms
+2025-12-09 09:36:23,057 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/filters/JwtRequestFilter.java, Duration: 246ms
+2025-12-09 09:36:23,213 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/filters/JwtRequestFilter.java
+2025-12-09 09:36:23,424 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/filters/JwtRequestFilter.java
+2025-12-09 09:36:23,657 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:23,857 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:24,103 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:24,312 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:24,516 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/CategoryService.js
+2025-12-09 09:36:24,796 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 91ms
+2025-12-09 09:36:25,176 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/Service/CategoryService.js, Duration: 175ms
+2025-12-09 09:36:25,372 - Knowledge - INFO - persist search terms embedding for client/src/Service/CategoryService.js
+2025-12-09 09:36:25,555 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/CategoryService.js
+2025-12-09 09:36:25,709 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:25,872 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:26,097 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:26,319 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:26,510 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/OrderRequest.java
+2025-12-09 09:36:26,781 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2025-12-09 09:36:27,198 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/io/OrderRequest.java, Duration: 206ms
+2025-12-09 09:36:27,406 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/io/OrderRequest.java
+2025-12-09 09:36:27,599 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/io/OrderRequest.java
+2025-12-09 09:36:27,786 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:27,960 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:28,201 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:28,443 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:28,668 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/vercel.json
+2025-12-09 09:36:28,950 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 85ms
+2025-12-09 09:36:29,670 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/vercel.json, Duration: 509ms
+2025-12-09 09:36:29,852 - Knowledge - INFO - persist search terms embedding for client/vercel.json
+2025-12-09 09:36:30,039 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/vercel.json
+2025-12-09 09:36:30,231 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:30,371 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:30,675 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:30,871 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:31,065 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/RazorpayServiceImpl.java
+2025-12-09 09:36:31,319 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 83ms
+2025-12-09 09:36:31,850 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: src/main/java/in/ankit/billingsoftware/service/impl/RazorpayServiceImpl.java, Duration: 289ms
+2025-12-09 09:36:32,079 - Knowledge - INFO - persist search terms embedding for src/main/java/in/ankit/billingsoftware/service/impl/RazorpayServiceImpl.java
+2025-12-09 09:36:32,259 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/src/main/java/in/ankit/billingsoftware/service/impl/RazorpayServiceImpl.java
+2025-12-09 09:36:32,446 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:32,592 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:32,810 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/onebill-291610.git:kavia-main
+2025-12-09 09:36:33,004 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7f0c845da890>
+2025-12-09 09:36:33,240 - Knowledge - INFO - persist ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/PaymentService.js
+2025-12-09 09:36:33,538 - Knowledge - INFO - [MONGODB_OP] Completed: persist, Collection: file_info, Duration: 95ms
+2025-12-09 09:36:33,969 - Knowledge - INFO - [REDIS_OP] Completed: store_embedding, Key: client/src/Service/PaymentService.js, Duration: 241ms
+2025-12-09 09:36:34,145 - Knowledge - INFO - persist search terms embedding for client/src/Service/PaymentService.js
+2025-12-09 09:36:34,317 - Knowledge - INFO - process ingested knowledge for /app/data/T0015/291610/b0824r8/onebill-291610/client/src/Service/PaymentService.js
+2025-12-09 09:36:34,528 - Knowledge - INFO - Loaded 113 files from persisted knowledge
+2025-12-09 09:36:34,699 - Knowledge - INFO - load persisted knowledge: end
+2025-12-09 09:36:34,880 - Knowledge - INFO - Redis support added with prefix knowledge:b0824r8:
+2025-12-09 09:36:35,265 - Knowledge - INFO - Starting knowledge initialization for ID: J9xelE-b0824r8
+2025-12-09 09:36:35,494 - Knowledge - INFO - 🔍 Checking Redis for build_id: b0824r8
+2025-12-09 09:36:35,666 - Knowledge - INFO - 🔍 Full session ID: J9xelE-b0824r8
+2025-12-09 09:36:35,834 - Knowledge - INFO - 🔍 Redis prefix will be: knowledge:b0824r8:
+2025-12-09 09:36:36,025 - Knowledge - INFO - 🔍 Using attached load_from_redis() method
+2025-12-09 09:36:36,209 - Knowledge - INFO - 🔍 Attempting to load knowledge from Redis...
+2025-12-09 09:36:36,354 - Knowledge - INFO - 🔍 Using derived instance_id for Redis lookup: b0824r8
+2025-12-09 09:36:36,542 - Knowledge - INFO - ✅ Redis cache found! Loading knowledge...
+2025-12-09 09:36:36,691 - Knowledge - INFO - ✅ Successfully loaded from Redis: 113 files
+2025-12-09 09:36:36,891 - Knowledge - INFO - ✅ Redis load complete: 113 files in 0.87s
+2025-12-09 09:36:37,063 - Knowledge - INFO - ⚡ Total Redis path: 0.87s (vs ~300s from disk)
+2025-12-09 09:36:37,236 - Knowledge - INFO - Saving knowledge to Redis...
+2025-12-09 09:36:37,508 - Knowledge - INFO - Knowledge saved to Redis successfully
